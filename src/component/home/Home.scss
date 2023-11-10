@@ -1,0 +1,107 @@
+.home-container {
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-family: 'Work Sans', sans-serif;
+    .home-main {
+        width: 90%;
+        height: 90%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+        .home-header {
+            display: flex;
+            justify-content: space-between;
+            z-index: 2;
+
+            .home-logo {
+                margin-left: 5rem;
+                margin-right: 2rem;
+                margin-top: 2rem;
+                    font-size: large;
+                font-weight: bold;
+            }
+
+            .home-nav {
+                position: relative;
+                z-index: 2;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 2rem;
+                margin-right: 5rem;
+
+                p {
+                    margin-right: 2rem;
+                    color: gray;
+                    cursor: pointer;
+                }
+
+                p:hover {
+                    color: black;
+                }
+            }
+        }
+
+        .home-body {
+            display: flex!important;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .body-info {
+                margin-left: 5rem;
+
+                .slogan {
+                    margin-top: 9rem;
+                    font-weight: 300;
+                }
+
+                b {
+                    font-weight: bold;
+                }
+
+                p {
+                    margin-top: 3rem;
+                    margin-bottom: 5rem;
+                    width: 60%;
+                    color: gray;
+                }
+
+                
+
+                .home-button-disco {
+                    border-radius: 50px 50px 50px 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 3%;
+                    width: 23%;
+                    height: 2rem;
+                    font-size: 1rem;
+                    color: aliceblue;
+                    background-color: #E4A5AB;
+                    border-color: #E4A5AB;
+                    cursor: pointer;
+                    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+                }
+            }
+
+            .home-image {
+                background-image: url(https://images.squarespace-cdn.com/content/v1/595400cd15d5dbb3765c47b9/1626286822409-RK89AAJXJZHLJUHF8XOX/great-cocktails-gBvGB7mpbjk-unsplash.jpg?format=1500w);
+                position: relative;
+                object-fit: cover;
+                width: 1200px;
+                top: -120px;
+                // right: 75px;
+                padding-top: 0px;
+                height: 700px;
+                border-radius: 0 0 0 250px;
+                background-position: -50%;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
+        }
+    }
+}

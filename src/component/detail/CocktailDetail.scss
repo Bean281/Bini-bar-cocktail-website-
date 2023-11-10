@@ -1,0 +1,111 @@
+.detail-container {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .detail-main {
+        width: 90%;
+        height: 90%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background-color: #fff;
+
+        .img-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4rem;
+            padding-top: 7%;
+
+            img {
+                width: 350px;
+                height: 350px;
+                padding: auto;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            }
+            
+            p {
+                padding: 5%;
+                font-style: italic;
+            }
+        }
+
+        .info-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .info-background {
+                background-color: #FBA1B7;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                width: 95%;
+                height: 90%;
+
+                .info-descrip {
+                    // padding-top: 6%;
+                    margin-top: 8%;
+                    padding-left: 15%;
+
+                    .detail-strDrink {
+                        font-weight: bold;
+                    }
+
+                    .detail-strIBA {
+                        font-size: 1.7rem;
+                        font-weight: 350;
+                        font-style: italic;
+                    }
+
+                    .category {
+                        margin-top: 2.5rem;
+                        margin-bottom: 3rem;
+                        .category-name {
+                            font-size: 1.5rem;
+                            font-weight: 550;
+                            margin-bottom: 0;
+                        }
+                    }
+
+                    button {
+                        margin-top: 1.75rem;
+                        background-color: transparent;
+                        border-radius: 7px;
+                        padding: 5%;
+                        border: 3px solid black;
+                        
+                    }
+
+
+                }
+
+                .info-ingredient {
+                    padding-top: 8rem;
+                    padding-left: 7rem;
+                    .ingredient-box {
+                        display: flex;
+                        align-items: center;
+                        // gap: 3rem;
+                        margin-bottom: 15%;
+
+                        .box-icon {
+                            width: 80px;
+                            .ingre-icon {
+                                font-size: 70px;
+                                display: block;
+                                width: 50px;
+                            }
+                        }
+
+                        .ingredient-info {
+                            .ingredient-name {
+                                font-size: 1.5rem;
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+            }
+            
+            }
+    }
+}

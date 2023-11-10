@@ -1,0 +1,41 @@
+.shop-container {
+background-color: antiquewhite;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+
+    .shop-main {
+        width: 90%;
+        height: 90%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+        .shop-sidebar {
+            background-color: #FBA1B7;
+            height: 100%;
+
+            .seach-bar {
+                width: 40%;
+                margin: auto;
+            }
+
+            .home-btn {
+                cursor: pointer;
+            }
+        }
+
+        .shop-body {
+            padding-top: 2%;
+            padding-left: 0;
+            padding-right: 0;
+            height: 100%;
+
+            .title-body {
+                display: flex;
+                flex-direction: row-reverse;
+                padding: 0 3%;
+            }
+        }
+    }
+
+}

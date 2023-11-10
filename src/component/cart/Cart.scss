@@ -1,0 +1,45 @@
+.cart-container {
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-family: 'Work Sans', sans-serif;
+    .cart-main {
+        width: 90%;
+        height: 90%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        .cell-name {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            width: 120px;
+            img {
+                width: 100%;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            }
+        }
+        .btn-des {
+            background-color: #E4A5AB;
+            border: #E4A5AB;
+            color: black;
+        }
+
+        .btn-input {
+            width: 3rem;
+            text-align: center;
+            border: 1px solid #E4A5AB;
+            color: black;
+        }
+
+        .btn-input:focus {
+            outline: none;
+        }
+
+        .btn-incs {
+            background-color: #E4A5AB;
+            border: #E4A5AB;
+            color: black;
+        }
+    }
+}
