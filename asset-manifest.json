@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Bini-bar-cocktail-website-/static/css/main.7120490e.css",
+    "main.js": "/Bini-bar-cocktail-website-/static/js/main.148081c2.js",
+    "static/js/787.01a2cf56.chunk.js": "/Bini-bar-cocktail-website-/static/js/787.01a2cf56.chunk.js",
+    "index.html": "/Bini-bar-cocktail-website-/index.html",
+    "main.7120490e.css.map": "/Bini-bar-cocktail-website-/static/css/main.7120490e.css.map",
+    "main.148081c2.js.map": "/Bini-bar-cocktail-website-/static/js/main.148081c2.js.map",
+    "787.01a2cf56.chunk.js.map": "/Bini-bar-cocktail-website-/static/js/787.01a2cf56.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7120490e.css",
+    "static/js/main.148081c2.js"
+  ]
+}
